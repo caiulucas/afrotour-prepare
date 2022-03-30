@@ -1,0 +1,35 @@
+:root {
+  --background: #F5F8FA;
+  --primary: #B2DEEB;
+  --button: #ffffff;
+  --text: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  // font: 16px "Poppins", Arial, sans-serif;
+  color: var(--text);
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 24px;
+  }
+}
+
+body {  
+  background: var(--background);
+}
+
+input, textarea {
+  font-family: "Poppins";
+}
+
+button {
+  cursor: pointer;
+}
